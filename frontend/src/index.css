@@ -191,3 +191,13 @@ input {
   border: 0.1rem #c0c0c0 solid;
   border-radius: 0.5rem;
 }
+
+.table2 {
+  width: 100%;
+}
+.table2 th {
+  text-align: left;
+}
+.table2 tbody > tr:nth-child(even) {
+  background-color: #e01515;
+}
